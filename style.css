@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 45px;
+    width: 200px;
+    height: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.equilibrium {
+    border-radius: 15px;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 30px;
+    left: 22px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 28px;
+}
+
+.avatartext {
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+}
+
+.avatartexttwo {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.avatartexttwo:hover {
+    color: #00FFF8;
+}
+
+.divider {
+    border: 1px solid hsl(215, 32%, 27%); 
+    position: absolute;
+    width: 250px;
+    bottom: 45px;
+    left: 25px;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    position: absolute;
+    top: 270px;
+    left: 30px;
+    cursor: pointer;
+}
+
+h3:hover {
+    color: #00FFF8;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    position: absolute;
+    top: 310px;
+    left: 30px; 
+}
+
+.ethereum {
+    position: absolute;
+    top: 380px;
+    left: 30px; 
+}
+
+.ethereumtext {
+    color: #00FFF8;
+    position: absolute;
+    top: 380px;
+    left: 50px; 
+}
+
+.clock {
+    position: absolute;
+    top: 382px;
+    left: 185px;   
+}
+
+.clocktext {
+    color: #8BACD9;
+    position: absolute;
+    top: 380px;
+    left: 210px; 
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: hsl(217, 54%, 11%);
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    .container {
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 15px;
+        padding: 45px;
+        width: 200px;
+        height: 380px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .equilibrium {
+        border-radius: 15px;
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 30px;
+        left: 22px;
+    }
+    
+    .avatar {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        bottom: 10px;
+        left: 28px;
+    }
+    
+    .avatartext {
+        color: hsl(215, 51%, 70%);
+        position: absolute;
+        bottom: 20px;
+        left: 80px;
+    }
+    
+    .avatartexttwo {
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+    
+    .avatartexttwo:hover {
+        color: #00FFF8;
+    }
+    
+    .divider {
+        border: 1px solid hsl(215, 32%, 27%); 
+        position: absolute;
+        width: 250px;
+        bottom: 45px;
+        left: 25px;
+    }
+    
+    h3 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+        position: absolute;
+        top: 270px;
+        left: 30px;
+        cursor: pointer;
+    }
+    
+    h3:hover {
+        color: #00FFF8;
+    }
+    
+    p {
+        color: hsl(215, 51%, 70%);
+        position: absolute;
+        top: 310px;
+        left: 30px; 
+    }
+    
+    .ethereum {
+        position: absolute;
+        top: 380px;
+        left: 30px; 
+    }
+    
+    .ethereumtext {
+        color: #00FFF8;
+        position: absolute;
+        top: 380px;
+        left: 50px; 
+    }
+    
+    .clock {
+        position: absolute;
+        top: 382px;
+        left: 185px;   
+    }
+    
+    .clocktext {
+        color: #8BACD9;
+        position: absolute;
+        top: 380px;
+        left: 210px; 
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    body {
+        background-color: hsl(217, 54%, 11%);
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    .container {
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 15px;
+        padding: 45px;
+        width: 200px;
+        height: 380px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .equilibrium {
+        border-radius: 15px;
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        top: 30px;
+        left: 22px;
+    }
+    
+    .avatar {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        bottom: 10px;
+        left: 28px;
+    }
+    
+    .avatartext {
+        color: hsl(215, 51%, 70%);
+        position: absolute;
+        bottom: 20px;
+        left: 80px;
+    }
+    
+    .avatartexttwo {
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+    
+    .avatartexttwo:hover {
+        color: #00FFF8;
+    }
+    
+    .divider {
+        border: 1px solid hsl(215, 32%, 27%); 
+        position: absolute;
+        width: 250px;
+        bottom: 45px;
+        left: 25px;
+    }
+    
+    h3 {
+        color: hsl(0, 0%, 100%);
+        font-weight: 600;
+        position: absolute;
+        top: 270px;
+        left: 30px;
+        cursor: pointer;
+    }
+    
+    h3:hover {
+        color: #00FFF8;
+    }
+    
+    p {
+        color: hsl(215, 51%, 70%);
+        position: absolute;
+        top: 310px;
+        left: 30px; 
+    }
+    
+    .ethereum {
+        position: absolute;
+        top: 380px;
+        left: 30px; 
+    }
+    
+    .ethereumtext {
+        color: #00FFF8;
+        position: absolute;
+        top: 380px;
+        left: 50px; 
+    }
+    
+    .clock {
+        position: absolute;
+        top: 382px;
+        left: 185px;   
+    }
+    
+    .clocktext {
+        color: #8BACD9;
+        position: absolute;
+        top: 380px;
+        left: 210px; 
+    }
+}
